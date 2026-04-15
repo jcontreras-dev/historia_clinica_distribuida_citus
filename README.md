@@ -165,12 +165,6 @@ Puedes hacer consultas distribuidas directamente desde el coordinador:
 SELECT * FROM usuario WHERE documento_id > 0;
 ![Diagrama ER](fot3.png)
 
-## 📈 Consulta de prueba
-
-SELECT documento_id, COUNT(*)  
-FROM atencion  
-GROUP BY documento_id;
-
 ---
 
 ## 📌 Conclusión
